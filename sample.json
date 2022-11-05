@@ -1,0 +1,68 @@
+{
+  "title" : "1-к. квартира, 40 м², 12/17 эт.",
+  "text" : "Сдаётся без посредников 1 комнатная квартира, Люберцы мкр. Красная Горка, новостройка, дом монолит-кирпич 12 этаж 17 этажного дома.\n27.000 + счётчики\nЧистая, светлая, тёплая, уютная. Солнечная сторона, вид на тихий двор.\nВ квартире имеется всё для комфортного проживания, из мебели угловой диван, кровать, шкафы-купе, стулья, кухонный гарнитур. Из бытовой техники – холодильник, плита, телевизор, стиральная машина. Так же есть WiFi. Национальность проживающих значения не имеет, можно с детьми, но без животных.\nДо Выхино 15 минут на маршрутке (остановка у дома). До метро Некрасовка 5 мин маршрутка (15-20 мин пешком)\nКомиссия 0р., Депозит 20000.",
+  "externalProviderType" : "avito",
+  "entityType" : "advert",
+  "compositeId" : "av#d342535080",
+  "id" : "342535080",
+  "url" : "https://www.avito.ru/lyubertsy/kvartiry/1-k._kvartira_40m_1217et._342535080",
+  "address" : {
+    "fullAddress" : "Московская область, Люберцы, микрорайон Красная Горка, пр-т Гагарина, 22к2",
+    "coords" : {
+      "lat" : 55.689903,
+      "lon" : 37.916397
+    }
+  },
+  "regionId" : "638790",
+  "attributes" : [ {
+    "name" : "Количество комнат: ",
+    "value" : "1"
+  }, {
+    "name" : "Общая площадь: ",
+    "value" : "40 м²"
+  }, {
+    "name" : "Площадь кухни: ",
+    "value" : "8 м²"
+  }, {
+    "name" : "Жилая площадь: ",
+    "value" : "27 м²"
+  }, {
+    "name" : "Этаж: ",
+    "value" : "12 из 17"
+  }, {
+    "name" : "Балкон или лоджия: ",
+    "value" : "лоджия"
+  }, {
+    "name" : "Санузел: ",
+    "value" : "совмещенный"
+  }, {
+    "name" : "Ремонт: ",
+    "value" : "косметический"
+  }, {
+    "name" : "Мебель: ",
+    "value" : "кухня, хранение одежды, спальные места"
+  }, {
+    "name" : "Техника: ",
+    "value" : "холодильник, плита, стиральная машина"
+  }, {
+    "name" : "Интернет и ТВ: ",
+    "value" : "Wi-Fi"
+  } ],
+  "categoryList" : [ {
+    "id" : "24",
+    "parentId" : "4",
+    "name" : "Квартиры"
+  }, {
+    "id" : "4",
+    "name" : "Недвижимость"
+  } ],
+  "date" : "2022-11-03T04:17:00Z",
+  "deleted" : false,
+  "isVirtualPhone" : false,
+  "ownerId" : "19e5be3daa206a9cf9e88d9030bd9834",
+  "ownerName" : "Анна",
+  "ownerType" : "ORG",
+  "phones" : [ "отсутствует" ],
+  "photoUrls" : [ "https://60.img.avito.st/image/1/1.GYBtmLaytWlbMXdsU5BIw9E7tW_NPbc.fqZ5rbWb9q2if0rIu0iHdQ36c75dpEUYRlSmIwJrXS0", "https://25.img.avito.st/image/1/1.JK1veLayiERZ0UpBK2h17tPbiELP3Yo.rpY5-cI6iNwPuo9YAnxByubXFYuBPVQKhzsJdnxBnSU", "https://52.img.avito.st/image/1/1.DX4FFbayoZczvGOSEwlcPbm2oZGlsKM.e2ntFfBPNKmWDFc3iBTwZpsotGcAwxm1fa8HbhorzF4", "https://88.img.avito.st/image/1/1.WdDQ-Lay9TnmUTc87p0Ik2xb9T9wXfc.KrXdIdR5FMxhJ5wzmMKu8Dm4jPFNVb0pxxj-sfiFkZI", "https://36.img.avito.st/image/1/1.PVgA3raykbE2d1O0drZsG7x9kbege5M.wG_vyRLviSMGdo1MmbKEHWCopJUOa4vHgwGqJ6YHLPM", "https://39.img.avito.st/image/1/1.0ozaOLayfmXskbxg8kuDz2abfmN6nXw.rrKRiASMk8U_JXDk89rfdS3BhrCiNVuJ7lCizu40fMo", "https://83.img.avito.st/image/1/1.FiMA1bayuso2fHjPIKFHYLx2usygcLg.dtzx2vmHgjbPPKG3j-Wo0d7RQcRYm90wBANgTEsYA10", "https://32.img.avito.st/image/1/1.IbCNx7ayjVm7bk9cw7Nw8zFkjV8tYo8.vBLRGdJOgtYOzogrxFGroNXl8sV9pZFIuM2I1S1YSCg", "https://11.img.avito.st/image/1/1.rlQ81bayAr0KfMC4bNuaCIF2AruccAA.5gMuCvZWTIOQPq2Ck10D4RmRLMIDVw7tsxlyv5PGfKs", "https://44.img.avito.st/image/1/1.gTRzm7ayLd1FMu_YfYm1aM44LdvTPi8.Q_-bQlvwAj8sPzpo6IezvSqgWnne7gHjEIdg6qvoaYo" ],
+  "price" : 27000
+}

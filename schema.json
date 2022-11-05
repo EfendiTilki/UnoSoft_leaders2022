@@ -1,0 +1,225 @@
+{
+	"schemaType": "ENTITY_NODE",
+	"schemas": [
+		{
+			"name": "Квартира",
+			"group": "userSchema",
+			"isUserSchema": true,
+			"requiredProperties": [],
+			"titleProperties": [
+				"name",
+				"Цена"
+			],
+			"propertySchemas": [
+				{
+					"name": "name",
+					"localizedName": "Название",
+					"type": "TEXTSTRING",
+					"dependencies": [],
+					"isArray": false,
+					"isReadonly": false,
+					"isHidden": false
+				},
+				{
+					"name": "_list_id",
+					"localizedName": "Списки",
+					"type": "NODE_LIST",
+					"dependencies": [],
+					"isArray": true,
+					"isReadonly": false,
+					"isHidden": false
+				},
+				{
+					"name": "Цена",
+					"localizedName": "Цена",
+					"type": "PRICE",
+					"dependencies": [],
+					"isArray": false,
+					"isReadonly": false,
+					"isHidden": false,
+				},
+				{
+					"name": "description",
+					"localizedName": "Описание",
+					"type": "TEXT",
+					"dependencies": [],
+					"isArray": false,
+					"isReadonly": false,
+					"isHidden": false,
+					"propertyEquality": "DESCRIPTION"
+				},
+				{
+					"name": "characteristics_v2",
+					"localizedName": "Характеристики",
+					"type": "TEXTSTRING",
+					"dependencies": [],
+					"isArray": false,
+					"isReadonly": false,
+					"isHidden": false
+				},
+				{
+					"name": "attachment",
+					"localizedName": "Приложение",
+					"type": "ATTACHMENT",
+					"dependencies": [],
+					"isArray": true,
+					"isReadonly": false,
+					"isHidden": false,
+					"metaName": "attachment_name"
+				},
+				{
+					"name": "Ссылка",
+					"localizedName": "Ссылка",
+					"type": "URL",
+					"dependencies": [],
+					"isArray": false,
+					"isReadonly": false,
+					"isHidden": false
+				},
+				},
+				{
+					"name": "Адрес",
+					"localizedName": "Адрес",
+					"type": "ADDRESS",
+					"dependencies": [],
+					"isArray": false,
+					"isReadonly": false,
+					"isHidden": false,
+					"metaName": "Адрес_geoshape",
+					"propertyEquality": "ADDRESS"
+				},
+				{
+					"name": "_attributes",
+					"localizedName": "Атрибуты",
+					"type": "DICTIONARY",
+					"dependencies": [],
+					"isArray": true,
+					"isReadonly": false,
+					"isHidden": false,
+					"dictionaryName": "attributes"
+				},
+				{
+					"name": "category_v2",
+					"localizedName": "Категория",
+					"type": "TEXTSTRING",
+					"dependencies": [],
+					"isArray": false,
+					"isReadonly": false,
+					"isHidden": false
+				},
+				{
+					"name": "_attributesHistory",
+					"localizedName": "История атрибутов",
+					"type": "DICTIONARY",
+					"dependencies": [],
+					"isArray": true,
+					"isReadonly": false,
+					"isHidden": false,
+					"dictionaryName": "attributesHistory"
+				},
+				{
+					"name": "dateCreated",
+					"localizedName": "Дата публикации",
+					"type": "DATETIME",
+					"dependencies": [],
+					"isArray": false,
+					"isReadonly": false,
+					"isHidden": false
+				},
+				{
+					"name": "_dateCreated",
+					"localizedName": "Дата создания",
+					"type": "DATETIME",
+					"dependencies": [],
+					"isArray": false,
+					"isReadonly": true,
+					"isHidden": false
+				},
+				{
+					"name": "ownerName",
+					"localizedName": "Имя владельца",
+					"type": "TEXTSTRING",
+					"dependencies": [],
+					"isArray": false,
+					"isReadonly": false,
+					"isHidden": false,
+					"group": "owner"
+				},
+				{
+					"name": "_dateChanged",
+					"localizedName": "Дата изменения",
+					"type": "DATETIME",
+					"dependencies": [],
+					"isArray": false,
+					"isReadonly": true,
+					"isHidden": false
+				},
+				{
+					"name": "contactNumber_v2",
+					"localizedName": "Контактный телефон",
+					"type": "TEXTSTRING",
+					"dependencies": [],
+					"isArray": false,
+					"isReadonly": false,
+					"isHidden": false
+				},
+				{
+					"name": "originalProjectLink_v2",
+					"localizedName": "Ссылка на оригинальный проект",
+					"type": "PROJECT_LINK",
+					"dependencies": [],
+					"isArray": true,
+					"isReadonly": true,
+					"isHidden": false
+				},
+				{
+					"name": "photo",
+					"localizedName": "Фото",
+					"type": "IMAGE_URL",
+					"dependencies": [],
+					"isArray": false,
+					"isReadonly": false,
+					"isHidden": false,
+					"group": "photo",
+					"propertyEquality": "IMAGE_URL"
+				},
+				{
+					"name": "topWords",
+					"localizedName": "Топ слов",
+					"type": "WORD_CLOUD",
+					"dependencies": [],
+					"isArray": false,
+					"isReadonly": false,
+					"isHidden": false
+				},
+				{
+					"name": "sentiment",
+					"localizedName": "Оценка тональности текста",
+					"type": "DOUBLE",
+					"dependencies": [],
+					"isArray": false,
+					"isReadonly": true,
+					"isHidden": false
+				},
+				{
+					"name": "customId",
+					"localizedName": "Пользовательский идентификатор",
+					"type": "STRING",
+					"dependencies": [],
+					"isArray": false,
+					"isReadonly": false,
+					"isHidden": false
+				}
+			],
+			"mixinSchemaNames": [
+				"Объект"
+			],
+			"iconName": "icon-building",
+			"keyProperties": [
+				"customId"
+			],
+			"iconProperties": []
+		}
+	]
+}
+}

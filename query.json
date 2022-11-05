@@ -1,0 +1,20 @@
+{
+  "version" : "1",
+  "id" : "3c3f8bcb-16d3-4aa1-f847-883dc446dab9",
+  "name" : "2022-11-03 12꞉47꞉16_avito",
+  "date" : "2022-11-03T09:47:16.645Z",
+  "tasks" : [ {
+    "id" : "47731985836220092493",
+    "monitoring" : false,
+    "params" : {
+      "exactMatch" : false,
+      "regionId" : "806620",
+      "withPhoto" : false,
+      "photos" : false,
+      "categoryId" : "eb2eda54-0407-4c42-8969-3588ade54b62"
+    },
+    "headers" : {
+      
+    }
+  } ]
+}
